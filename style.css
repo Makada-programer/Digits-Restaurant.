@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(1714750048392);
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #78e48a;
+    padding: 15px 30px;
+}
+.navbar .logo {
+    color: rgb(72, 98, 248);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    color: rgb(33, 106, 240);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar ul li a:hover {
+    color: whitesmoke;
+}
+h2
+{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+}
+p
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+}
+label {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+button:hover {
+    background-color: #218838;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.footer {
+    background-color:rgb(10, 10, 10);
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
